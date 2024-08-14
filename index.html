@@ -5,65 +5,219 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashley Williams</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="roboto-regular">
     <header class="header">
-      <img src="" alt="Ashley Williams" />
-      <div class="flex">
-        <h1 class="roboto-slab">About me</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, facilis! Suscipit magni voluptates
-          placeat vero excepturi perferendis pariatur corrupti eaque. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quod mollitia impedit illo, assumenda quos doloremque saepe. Ipsam architecto laudantium nihil.
-        </p>
-        <div class="links"><a href="">GitHub</a><a href="">Linkedin</a><a href="">Twitter</a></div>
+      <div class="header-content">
+        <div class="header-description flex flex-col align-center">
+          <figure class="header-img">
+            <figcaption class="playfair-display">Ashley<span>Williams</span></figcaption>
+
+            <img
+              srcset="/main-1200_x_1808.webp 1200w, /main-768_x_1157.webp 768w, /main-480_x_717.webp 480w"
+              sizes="(min-width: 1200px) 1200px, (min-width: 768px) 768px, (max-width: 767px) 480px"
+              src="/main-480_x_717.webp"
+              alt="Ashley Williams"
+            />
+          </figure>
+
+          <h1 class="playfair-display">About me</h1>
+
+          <p>
+            Hi, I'm Ashley, a web developer passionate about crafting clean, efficient, and user-friendly websites. With
+            experience in front-end and back-end technologies, I bring ideas to life using HTML, CSS and JavaScript. I'm
+            committed to staying updated with the latest trends and best practices to deliver high-quality work that
+            meets client needs. Explore my portfolio to see what I've been working on, and feel free to reach out if
+            you'd like to collaborate!
+          </p>
+
+          <div class="links flex">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/github.svg" alt="GitHub" class="icon" />
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/linkedin.svg" alt="Linkedin" class="icon" />
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/x.svg" alt="X" class="icon" />
+            </a>
+          </div>
+        </div>
       </div>
     </header>
+
     <main class="main">
-      <h2 class="roboto-slab">My work</h2>
+      <h2 class="playfair-display">My work</h2>
       <div class="all-projects">
-        <div class="project">
-          <div></div>
-          <div>
-            <div class="flex space-between">
-              <h3 class="roboto-slab">Project name</h3>
-              <a href="">GitHub</a>
-              <!-- Some icon -->
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
             </div>
+
+            <p>Short description of the project. Just a couple sentences will do.</p>
+          </div>
+        </div>
+
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
+            </div>
+
+            <p>Short description of the project. Just a couple sentences will do.</p>
+          </div>
+        </div>
+
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
+            </div>
+
+            <p>Short description of the project. Just a couple sentences will do.</p>
+          </div>
+        </div>
+
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
+            </div>
+
+            <p>Short description of the project. Just a couple sentences will do.</p>
+          </div>
+        </div>
+
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
+            </div>
+
+            <p>Short description of the project. Just a couple sentences will do.</p>
+          </div>
+        </div>
+
+        <div class="project flex flex-col">
+          <div class="photo-container flex align-center justify-center">
+            <p class="playfair-display">screenshot of project</p>
+          </div>
+
+          <div class="project-description">
+            <div class="flex justify-between align-center">
+              <h3 class="playfair-display">Project name</h3>
+
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="github flex align-center">
+                <img src="/github.svg" alt="GitHub" class="icon" />
+                <img src="/uprightarrow.svg" alt="" class="icon" aria-hidden="true" />
+              </a>
+            </div>
+
             <p>Short description of the project. Just a couple sentences will do.</p>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer">
+
+    <footer class="footer flex flex-col justify-between">
       <div>
-        <h2 class="roboto-slab">Contact me</h2>
+        <h2 class="playfair-display">Contact me</h2>
+
         <p>Please get in touch if you think our work could be mutually beneficial!</p>
+
         <div class="address">
           <p>1234 Random Road</p>
           <p>Random Town, California 12345</p>
         </div>
+
         <div class="contact">
           <div class="phone">
-            <!-- Some icon -->
             <p>555-555-5555</p>
           </div>
+
           <div class="email">
-            <!-- Some icon -->
             <p>ashleywilliams.is.not.real@gmail.com</p>
           </div>
         </div>
-        <div class="links"><a href="">GitHub</a><a href="">Linkedin</a><a href="">Twitter</a></div>
+
+        <div class="links flex">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/github-light.svg" alt="GitHub" class="icon" />
+          </a>
+
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/linkedin-light.svg" alt="Linkedin" class="icon" />
+          </a>
+
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/x-light.svg" alt="X" class="icon" />
+          </a>
+        </div>
+
+        <p class="photo-credit">Photos by <a href="https://www.pexels.com/@ketut-subiyanto/">Ketut Subiyanto</a></p>
       </div>
-      <img src="" alt="Ashley Williams" />
-      <p>Photos by <a href="https://www.pexels.com/@ketut-subiyanto/">Ketut Subiyanto</a></p>
+
+      <img
+        srcset="/footer-1200_x_1800.webp 1200w, /footer-480_x_720.webp 480w"
+        sizes="(min-width: 1200px) 600px, (min-width: 768px) 400px, 200px"
+        src="/footer-480_x_720.webp"
+        alt="Ashley Williams"
+        class="footer-img"
+      />
     </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
